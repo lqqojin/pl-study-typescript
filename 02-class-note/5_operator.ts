@@ -47,7 +47,7 @@ function askSomeone(someone: Developer | Person) {
 }
 
 var capt: string & number & boolean;
-// intersaction type(&): 타입가드가 필요없이 Developer 와 Person 모든 속성의 타입을 사용 할 수 있음
+// intersection type(&): 타입가드가 필요없이 Developer 와 Person 모든 속성의 타입을 사용 할 수 있음
 function askSomeone1(someone: Developer & Person) {
     someone.name = ''; // 타입스트립트 관점에선 공통으로 들어온 공통(보장된 속성만 제공) name
     someone.skill = '';
