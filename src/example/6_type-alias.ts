@@ -24,8 +24,8 @@ function getPerson(): Person {
 // #3
 type Hero = {
   skill: string;
-}
+};
 
-const capt: Hero = { 
-  // skill: 'throwing a shield' 
-}
+const capt: Hero = {
+  // skill: 'throwing a shield'
+};

@@ -1,5 +1,5 @@
 // 인터페이스
-interface Developer {
+interface   Developer {
   name: string;
   skill: string;
 }
@@ -14,12 +14,12 @@ var b: Person;
 b = a; // O
 
 // 함수
-var add = function(a: number) {
+var add = function (a: number) {
   // ...
-}
-var sum = function(a: number, b: number) {
+};
+var sum = function (a: number, b: number) {
   // ...
-}
+};
 // sum = add; // X
 // add = sum; // O
 
