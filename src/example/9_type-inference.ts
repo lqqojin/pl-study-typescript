@@ -1,7 +1,7 @@
-var a = "a";
+const a = 'a';
 
-function logA(a = "a") {
-  var b = 10;
+function logA(a = 'a') {
+  const b = 10;
   return b;
 }
 
@@ -9,18 +9,18 @@ interface Dropdown<T> {
   value: T;
   title: string;
 }
-var items: Dropdown<number> = {
+const items: Dropdown<number> = {
   value: 10,
-  title: "a",
+  title: 'a',
 };
 
 interface DetailedDropdown<T> extends Dropdown<T> {
   description: string;
   tag: T;
 }
-var detailItems: DetailedDropdown<number> = {
-  value: "hi",
-  title: "a",
-  description: "b",
-  tag: "c",
+const detailItems: DetailedDropdown<number> = {
+  value: 'hi',
+  title: 'a',
+  description: 'b',
+  tag: 'c',
 };

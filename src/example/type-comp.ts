@@ -1,5 +1,5 @@
 // 인터페이스
-interface   Developer {
+interface Developer {
   name: string;
   skill: string;
 }
@@ -8,16 +8,16 @@ interface Person {
   name: string;
 }
 
-var a: Developer;
-var b: Person;
+let a: Developer;
+let b: Person;
 // a = b; // X
 b = a; // O
 
 // 함수
-var add = function (a: number) {
+const add = function (a: number) {
   // ...
 };
-var sum = function (a: number, b: number) {
+const sum = function (a: number, b: number) {
   // ...
 };
 // sum = add; // X
